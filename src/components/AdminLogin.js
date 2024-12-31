@@ -10,7 +10,7 @@ const AdminLogin = () => {
     const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-         const response = await axios.post("/api/admin/login", { username, password });
+         const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/admin/login`, { username, password });
             localStorage.setItem('token', response.data.token);
             setMessage(response.data.message);
             navigate("/admin");
