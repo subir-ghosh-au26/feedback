@@ -1,0 +1,10 @@
+.glogo{
+    width: 50px;
+    
+}
+
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
