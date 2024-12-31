@@ -71,7 +71,7 @@ const FeedbackForm = () => {
     }
 
     try {
-      const response = await axios.post("/api/feedback", formData,{
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/feedback`, formData,{
         headers: {
           "Content-Type": "multipart/form-data",
         }
