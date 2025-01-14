@@ -5,7 +5,8 @@ body {
   background-color: #f4f4f4;
 }
 
-.feedback-form-container, .admin-login-container{
+.feedback-form-container,
+.admin-login-container {
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
@@ -14,17 +15,19 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-.feedback-form-container h2, .admin-login-container h2 {
+.feedback-form-container h2,
+.admin-login-container h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
- .feedback-form-container div, .admin-login-container div {
+.feedback-form-container div,
+.admin-login-container div {
   margin-bottom: 15px;
 }
 
-.feedback-form-container label, .admin-login-container label{
+.feedback-form-container label,
+.admin-login-container label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
@@ -35,20 +38,21 @@ body {
 .feedback-form-container select,
 .feedback-form-container textarea,
 .admin-login-container input[type="text"],
-.admin-login-container input[type="password"]{
+.admin-login-container input[type="password"] {
   width: calc(100% - 20px);
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 16px;
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.feedback-form-container textarea{
- height: 100px;
+.feedback-form-container textarea {
+  height: 100px;
 }
 
-.feedback-form-container button, .admin-login-container button{
+.feedback-form-container button,
+.admin-login-container button {
   display: block;
   width: 100%;
   padding: 10px;
@@ -61,11 +65,12 @@ body {
   transition: background-color 0.3s;
 }
 
-.feedback-form-container button:hover, .admin-login-container button:hover{
+.feedback-form-container button:hover,
+.admin-login-container button:hover {
   background: #4cae4c;
 }
 
-.admin-panel-container{
+.admin-panel-container {
   max-width: 1200px;
   margin: 50px auto;
   padding: 20px;
@@ -89,11 +94,11 @@ body {
   font-size: 16px;
   margin-bottom: 10px;
   transition: background-color 0.3s;
-  margin-right: 10px
+  margin-right: 10px;
 }
-  .admin-panel-container button:hover {
-   background: #4cae4c;
-  }
+.admin-panel-container button:hover {
+  background: #4cae4c;
+}
 .filter-section {
   display: flex;
   flex-wrap: wrap;
@@ -109,7 +114,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  min-width: 180px
+  min-width: 180px;
 }
 
 .filter-section label {
@@ -117,36 +122,83 @@ body {
   font-weight: bold;
 }
 
- .filter-section select , .filter-section input{
+.filter-section select,
+.filter-section input {
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 15px;
 }
-.filter-section button{
- margin-top: 20px;
+.filter-section button {
+  margin-top: 20px;
 }
-.chart-container{
-margin-bottom: 20px;
+.chart-container {
+  margin-bottom: 20px;
 }
 .table-section table {
- width: 100%;
- border-collapse: collapse;
- margin-bottom: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
 }
 
-.table-section th, .table-section td {
-border: 1px solid #ddd;
-padding: 8px;
-text-align: left;
+.table-section th,
+.table-section td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
 .table-section th {
- background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .table-section td img {
-display: block;
-margin-left: auto;
-margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.admin-register-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.admin-register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.admin-register-container div {
+  margin-bottom: 15px;
+}
+.admin-register-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.admin-register-container input[type="text"],
+.admin-register-container input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.admin-register-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.admin-register-container button:hover {
+  background: #4cae4c;
 }
